@@ -1,0 +1,543 @@
+# Translation of Plugins - Advanced Responsive Video Embedder - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Advanced Responsive Video Embedder - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-11-19 16:00:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Advanced Responsive Video Embedder - Development (trunk)\n"
+
+#: shared/functions-shared.php:257
+msgid ".ogv file for self hosted video"
+msgstr ".ogv файл для видео хранящегося на вашем хостинге"
+
+#: shared/functions-shared.php:254
+msgid "ogv"
+msgstr "ogv"
+
+#: shared/functions-shared.php:248
+msgid ".webm file url for HTML5 video"
+msgstr "ссылка на .webm файл для HTML5 видео"
+
+#: shared/functions-shared.php:245
+msgid "webm"
+msgstr "webm"
+
+#: shared/functions-shared.php:239
+msgid ".mp4 file url for HTML5 video"
+msgstr "ссылка на .mp4 файл для HTML5 видео"
+
+#: shared/functions-shared.php:236
+msgid "mp4"
+msgstr "mp4"
+
+#: shared/functions-shared.php:231
+msgid "Take over WP's default [video] shortcode for HTML5 files."
+msgstr "Наследовать [video] короткие коды из WP для HTML5 файлов."
+
+#: shared/functions-shared.php:225
+msgid "Take over [video]"
+msgstr "Наследовать [video]"
+
+#: shared/functions-shared.php:220
+msgid "(seconds) This plugin uses WordPress transients to cache video thumbnail URLS. This setting defines how long image URLs from the media Gallery are being stored before running WPs fuctions again to request them. For example: hour - 3600, day - 86400, week - 604800."
+msgstr "(секунды) Этот плагин использует WordPress transients для кеширования ссылок на изображения видео миниатюр. Данный параметр задаёт значение: как долго ссылка на изображение из Медиа Галереи будет сохранена до того как функция запуска WP вновь сформирует её. Например: час - 3600, день - 86400, неделя - 604800."
+
+#: shared/functions-shared.php:218
+msgid "Image Cache Time"
+msgstr "Время кеширования изображений"
+
+#: public/functions-validation.php:89
+msgid "Mode: <code>%s</code> is invalid or not supported. Note that you will need the Pro Addon activated for modes other than normal."
+msgstr "Режим: <code>%s</code> не верен и не поддерживается. Внимание: вам необходима ПРО версия плагина для активации режимов отличных от обычного."
+
+#: public/functions-shortcode-filters.php:209
+msgid "Track kind or language code could not detected from filename"
+msgstr "Track kind тег или языковой код (не могут быть определены на основе имени файла)"
+
+#: public/functions-shortcode-filters.php:61
+msgid "Element ID could not be build, please report this bug."
+msgstr "ID элемента не может быть создан, пожалуйста сообщите об этой ошибке."
+
+#: public/functions-shortcode-filters.php:25
+msgid "<code>%s</code> is not a valid url"
+msgstr "<code>%s</code> не корректная ссылка"
+
+#: public/functions-shortcode-filters.php:15
+msgid "<code>%s</code> is not a string. Only Strings should be passed to the shortcode function"
+msgstr "<code>%s</code> не строка. Только строки могут быть обработаны функцией коротких кодов."
+
+#: admin/functions-admin.php:166
+msgid "[arve] Embed Video"
+msgstr "[arve] Embed Video"
+
+#: admin/functions-admin.php:152
+msgid "It is perfectly fine to pass on this and <a href=\"%s\">manually</a> write shortcodes or don't use shortcodes at all, but it makes things easier."
+msgstr "Вы можете отказаться от использования этого и <a href=\"%s\">вручную</a> писать короткие коды или вовсе отказаться от них, но с ними многие вещи можно делать значительно легче."
+
+#: admin/functions-admin.php:150
+msgid "The \"Shortcake (Shortcode UI)\" plugin also adds What You See Is What You Get functionality to WordPress visual post editor."
+msgstr "\"Shortcake (Shortcode UI)\" плагин добавляет функциональность WYSIWYG («что видишь, то и получишь») для вашего редактора записей."
+
+#: admin/functions-admin.php:148
+msgid "This button can open a optional ARVE a Shortcode creation dialog. ARVE needs the \"Shortcake (Shortcode UI)\" plugin active for this fuctionality, please download <a href=\"%s\">version 0.7.0-alpha.zip</a> and install from zip. Current <a href=\"%s\">wordpress.org version 0.6.2</a> has a issue that the button needs to be clicked twice."
+msgstr "Эта кнопка откроет ARVE генератор коротких кодов. ARVE требует наличия активного плагина \"Shortcake (Shortcode UI)\" для корректной работы этой функции. Пожалуйста скачайте <a href=\"%s\">version 0.7.0-alpha.zip</a> и установите её. В текущей версии <a href=\"%s\">wordpress.org version 0.6.2</a> была найдена ошибка, в следствии которой кнопку генерации короткого кода приходилась нажимать дважды."
+
+#: shared/functions-shared.php:85
+msgid "Post the URL of the video here. For %s and any unlisted <a href=\"%s\">unlisted</a> video hosts paste their iframe embed codes in here (providers embeds need to be responsive)."
+msgstr "Вставьте ссылку на видео. Для %s и других  <a href=\"%s\">провайдеров видео контента</a> вставьте ссылку в формате iframe (помните, что контент провайдер должен поддерживать отзывчивый вывод)."
+
+#: shared/functions-shared.php:106
+msgid "Right"
+msgstr "Справа"
+
+#. Author URI of the plugin/theme
+msgid "https://nextgenthemes.com"
+msgstr "https://nextgenthemes.com"
+
+#: public/functions-shortcodes.php:218
+msgid "Options: "
+msgstr "Опции:"
+
+#: public/functions-html-output.php:112
+msgid "ARVE"
+msgstr "ARVE"
+
+#: public/functions-html-output.php:75
+msgid "Video Thumbnail"
+msgstr "Миниатюра для видео"
+
+#: public/functions-shortcode-filters.php:90
+msgid "Not a valid thumbnail URL or Media ID given"
+msgstr "Предоставленная ссылка изображения для миниатюры или Media ID указана неверно"
+
+#: public/functions-thumbnails.php:11
+msgid "No attachment with that ID"
+msgstr "Вложения для данного ID отсутствуют"
+
+#: shared/functions-shared.php:1003
+msgid "Theme"
+msgstr "Тема"
+
+#: shared/functions-shared.php:1000
+msgid "Dark"
+msgstr "Темная"
+
+#: shared/functions-shared.php:994
+msgid "Start"
+msgstr "Начало"
+
+#: shared/functions-shared.php:989
+msgid "Show Info"
+msgstr "Отображать информацию"
+
+#: shared/functions-shared.php:984
+msgid "Related Videos at End"
+msgstr "Похожие видео в конце"
+
+#: shared/functions-shared.php:979
+msgid "playsinline"
+msgstr "playsinline"
+
+#: shared/functions-shared.php:969
+msgid "playerapiid"
+msgstr "playerapiid"
+
+#: shared/functions-shared.php:964
+msgid "Origin"
+msgstr "Источник"
+
+#: shared/functions-shared.php:959
+msgid "Modestbranding"
+msgstr "Ограничение брендинга"
+
+#: shared/functions-shared.php:954
+msgid "Loop"
+msgstr "Цикличность"
+
+#: shared/functions-shared.php:949
+msgid "List Type"
+msgstr "Вид списка"
+
+#: shared/functions-shared.php:947
+msgid "User Uploads"
+msgstr "Загрузки пользователя"
+
+#: shared/functions-shared.php:946
+msgid "Search"
+msgstr "Поиск"
+
+#: shared/functions-shared.php:934
+msgid "iv_load_policy"
+msgstr "iv_load_policy"
+
+#: shared/functions-shared.php:932
+msgid "Do not show annotations"
+msgstr "Не показывать аннотации"
+
+#: shared/functions-shared.php:931
+msgid "Show annotations"
+msgstr "Отображать аннотации"
+
+#: shared/functions-shared.php:925 shared/functions-shared.php:939
+msgid "Language???"
+msgstr "Язык???"
+
+#: shared/functions-shared.php:920
+msgid "Fullscreen"
+msgstr "Во весь экран"
+
+#: shared/functions-shared.php:915
+msgid "End"
+msgstr "Конец"
+
+#: shared/functions-shared.php:910
+msgid "JavaScript API"
+msgstr "JavaScript API"
+
+#: shared/functions-shared.php:905
+msgid "disablekb"
+msgstr "disablekb"
+
+#: shared/functions-shared.php:900
+msgid "Controls"
+msgstr "Управление"
+
+#: shared/functions-shared.php:898
+msgid "Yes load after click"
+msgstr "Да, загружать после клика"
+
+#: shared/functions-shared.php:890
+msgid "Color"
+msgstr "Цвет"
+
+#: shared/functions-shared.php:888
+msgid "White"
+msgstr "Белый"
+
+#: shared/functions-shared.php:887
+msgid "Red"
+msgstr "Красный"
+
+#: shared/functions-shared.php:886 shared/functions-shared.php:895
+#: shared/functions-shared.php:930 shared/functions-shared.php:944
+#: shared/functions-shared.php:999
+msgid "Default"
+msgstr "По умолчанию"
+
+#: shared/functions-shared.php:881
+msgid "cc_load_policy"
+msgstr "cc_load_policy"
+
+#: shared/functions-shared.php:871
+msgid "Autohide"
+msgstr "Автоматически скрывать"
+
+#: shared/functions-shared.php:739
+msgid "Byline"
+msgstr "Автор"
+
+#: shared/functions-shared.php:738
+msgid "Badge"
+msgstr "Бейдж"
+
+#: shared/functions-shared.php:415
+msgid "API"
+msgstr "API"
+
+#: shared/functions-shared.php:213
+msgid "Note there are also general settings for this. This values get merged with the settings values. Example for YouTube <code>fs=0&start=30</code>. For reference: <a target=\"_blank\" href=\"https://developers.google.com/youtube/player_parameters\">Youtube Parameters</a>, <a target=\"_blank\" href=\"http://www.dailymotion.com/doc/api/player.html#parameters\">Dailymotion Parameters</a>, <a target=\"_blank\" href=\"https://developer.vimeo.com/player/embedding\">Vimeo Parameters</a>."
+msgstr "Помните, что для этой опции также существуют общие настройки. Значения отсюда будут объединены со значениями из настроек. Для примера YouTube <code>fs=0&start=30</code>. Для сравнения: <a target=\"_blank\" href=\"https://developers.google.com/youtube/player_parameters\">Youtube параметры</a>, <a target=\"_blank\" href=\"http://www.dailymotion.com/doc/api/player.html#parameters\">Dailymotion параметры</a>, <a target=\"_blank\" href=\"https://developer.vimeo.com/player/embedding\">Vimeo параметры</a>."
+
+#: shared/functions-shared.php:211
+msgid "provider specific parameters"
+msgstr "расширенные параметры провайдера контента"
+
+#: shared/functions-shared.php:208
+msgid "Parameters"
+msgstr "Параметры"
+
+#: shared/functions-shared.php:202
+msgid "Custom aspect ratio like 4:3, 21:9 ... Leave empty for default."
+msgstr "Соотношение сторон например 4:3, 21:9 ... Оставьте пустым для значений по умолчанию."
+
+#: shared/functions-shared.php:199
+msgid "Aspect Ratio"
+msgstr "Вид пропорции изображения"
+
+#: shared/functions-shared.php:194
+msgid "In px, Needed! Must be 100+ to work."
+msgstr "Значение должно быть в пикселях и больше 100."
+
+#: shared/functions-shared.php:186
+msgid "in px - leave empty to use settings"
+msgstr "в пикселях - оставьте пустым для значений по умолчанию"
+
+#: shared/functions-shared.php:156
+msgid "Upload Date for SEO, ISO 8601 format"
+msgstr "Дата загрузки для ПО в формате ISO 8601"
+
+#: shared/functions-shared.php:153
+msgid "Upload Date"
+msgstr "Дата загрузки"
+
+#: shared/functions-shared.php:147
+msgid "Description for SEO"
+msgstr "Описание для ПО"
+
+#: shared/functions-shared.php:144
+msgid "Description"
+msgstr "Описание"
+
+#: shared/functions-shared.php:139
+msgid "Used for SEO, is visible on top of thumbnails in Lazyload modes, is used as link text in link-lightbox mode. The Pro Addon is able to get them from %s automatically."
+msgstr "Необходимо для ПО. Отображается над миниатюрой в режиме Lazyload и используется в качестве текстовой ссылки в режиме link-lightbox. ПРО версия плагина забирает его автоматически со следующих сервисов: %s."
+
+#: shared/functions-shared.php:137
+msgid "Title"
+msgstr "Заголовок"
+
+#: shared/functions-shared.php:132
+msgid "Preview image for Lazyload modes, always used for SEO. The Pro Addon is able to get them from %s automatically."
+msgstr "Предварительное изображение для режима Lazyload, оно используется в ПО. ПРО версия плагина забирает его автоматически из следующих сервисов: %s."
+
+#: shared/functions-shared.php:130 shared/functions-shared.php:131
+msgid "Select Image"
+msgstr "Выберите изображение"
+
+#: shared/functions-shared.php:122
+msgid "Shows a small 'ARVE' link below the videos. Be the most awesome person and help promoting this plugin."
+msgstr "Вы можете помочь в распространении информации об этом плагине включив отображение короткой ссылки \"ARVE\" под воспроизводимым видео."
+
+#: shared/functions-shared.php:105
+msgid "Left"
+msgstr "Слева"
+
+#: shared/functions-shared.php:104 shared/functions-shared.php:896
+msgid "None"
+msgstr "Отсутствует"
+
+#: shared/functions-shared.php:100
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: shared/functions-shared.php:95 shared/functions-shared.php:103
+#: shared/functions-shared.php:116 shared/functions-shared.php:165
+msgid "Default (current setting: %s)"
+msgstr "По умолчанию (текущие настройки: %s)"
+
+#: shared/functions-shared.php:82
+msgid "Video URL / iframe Embed Code"
+msgstr "Ссылка на видео / iframe Embed Code"
+
+#: shared/functions-shared.php:79
+msgid "URL / Embed Code"
+msgstr "Ссылка / Embed Code"
+
+#: admin/functions-admin.php:40
+msgid "<p>This is Nico(las Jonas) the Author of the Advanced Responsive Video Embedder plugin. When you <strong><a href=\"https://nextgenthemes.com/plugins/advanced-responsive-video-embedder-pro/\">buy the Pro Addon</a></strong> for this plugin you will get this:</p>"
+msgstr "<p>Меня зовут Нико (las Jonas). Я автор плагина Advanced Responsive Video Embedder. Купив <strong><a href=\"https://nextgenthemes.com/plugins/advanced-responsive-video-embedder-pro/\">ПРО версию</a></strong> моего плагина вы получите дополнительные функции, такие как:</p>"
+
+#: admin/functions-admin.php:477
+msgid "This shortcodes exist for backwards compatiblity only. It is not recommended to use them at all, please use the <code>[arve]</code> shortcode. You can change the old shortcode tags here. You may need this to prevent conflicts with other plugins you want to use."
+msgstr "Данные короткие коды сохранены исключительно для обратной совместимости. Настоятельно не рекомендуется использовать их, пожалуйста используйте код <code>[arve]</code>. Старые короткие коды можно изменить ниже. Это может потребоваться в случае возникновения конфликтов с другими плагинами."
+
+#: shared/functions-shared.php:112
+msgid "ARVE Link"
+msgstr "Поддержать ARVE"
+
+#: admin/functions-admin.php:231
+msgid "Upload Image"
+msgstr "Загрузить изображение"
+
+#: admin/functions-admin.php:16
+msgid ""
+"<p>Thanks for using and updating <abbr title=\"Advanced Responsive Video Embedder\">ARVE</abbr>, this was a <strong>huge</strong> update please read about <a href=\"%s\" target=\"_blank\">what is new here</a>. You will see a message about a highly recommended plugin \"Shortcode UI / Shortcake\" that is bundled within ARVE its needed for the new shortcode dialog and and the new WYSIWYG feature for shortcodes inside the post editor. If you do not want that then you can dismiss the install and manually write shortcodes or use URLs. Many thanks to all the beta testers, I will send out free discounts soon.</p>\n"
+"\t\t<p>There is no guarantee that it will work without new problems on all your themes and plugins combinations out there. I am afraid of bad rating and people flooding me with complaints that they don't like the changes, that I broke their sites or something. But at some point there has to be a release. Please download the <a href=\"%s\" target=\"_blank\">old version here now</a> and old pro addon in <a href=\"%s\">from your account</a> if you own it. If you have big problems and need a quick fix please downgrade ARVE (delete the arve plugin/s and reinstall with the .zip file/s) and report any problems <a href=\"%s\" target=\"_blank\">here.</a> Please don't give negative reviews.</p>"
+msgstr ""
+"<p>Благодарим за использование и обновление <abbr title=\"Advanced Responsive Video Embedder\">ARVE</abbr>, совсем недавно мы сделали <strong>очень большую</strong> работу по обновлению нашего плагина, более подробную информацию вы сможете найти <a href=\"%s\" target=\"_blank\">здесь</a>. Вы заметите сообщение о настоятельно рекомендуемом для установки плагине \"Shortcode UI / Shortcake\" он был объединён с ARVE и необходим для новой функции генерации коротких кодов, а также для новой WYSIWYG функции генерации коротких кодов внутри редактора записей. Если вы не хотите использовать эти плагины, вы можете отменить их установку в стандартном диалоге удаления/добавления плагинов вашего ВордПресс и добавлять короткие коды вручную или с помощью ссылки. Мы выражаем благодарность всем бета тестерам и в качестве благодарности я отправлю вам коды для получения скидки.</p>\n"
+"\t\t<p>Не гарантии того, что плагин будет работать со всеми темами и плагинами сторонних разработчиков. Боюсь, что может появится множество флуда, а также негативных отзывов о том, что мой плагин уничтожил чей-то сайт или о том, что кому-то не нравятся нововведения плагина. Но в любом случае стадия бета тестирования должна была закончится и превратится в релиз. Вы можете скачать <a href=\"%s\" target=\"_blank\">старую версию здесь</a> и старую про версию в <a href=\"%s\">вашем личном кабинете</a> если вы купили её. Если у вас появились проблемы, требующие быстрого решения пожалуйста перейдите на более старую версию ARVE (удалите ARVE плагин и переустановите его из пакета более старой версии, которую вы скачали) пожалуйста сообщите о возникших проблемах <a href=\"%s\" target=\"_blank\">здесь.</a> Я решу их в ближайшее время.Не нужно писать негативных отзывов, это очень мешает распространению плагина. Большое спасибо!</p>"
+
+#: admin/functions-admin.php:8
+msgid "Your ARVE Pro Addon is outdated, you need version %s or later. Please <a href=\"%s\">look here</a> for manual updates if you run the beta version or your auto-updates do not work or are disabled."
+msgstr "Ваша версия плагина ARVE ПРО устарела, вам необходимо установить версию %s или более позднюю. Пожалуйста  <a href=\"%s\">прочитайте здесь</a> для ручного обновления если вы используете бета версию или если функция авто обновления отключена."
+
+#. Author of the plugin/theme
+msgid "Nicolas Jonas"
+msgstr "Nicolas Jonas"
+
+#. Description of the plugin/theme
+msgid "Easy responsive video embeds via URL (like WordPress) or Shortcodes. Supports almost anything you can imagine."
+msgstr "Встраивайте с лёгкостью ваши видео с помощью ссылок (как в WordPress) или коротких кодов. Мы осуществили поддержку практически любой функции, которую вы можете себе представить."
+
+#. Plugin URI of the plugin/theme
+msgid "https://nextgenthemes.com/plugins/advanced-responsive-video-embedder-pro/"
+msgstr "https://nextgenthemes.com/plugins/advanced-responsive-video-embedder-pro/"
+
+#. #-#-#-#-#  tmp-advanced-responsive-video-embedder.pot (ARVE Advanced
+#. Responsive Video Embedder 7.9.8)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/functions-admin.php:163
+msgid "ARVE Advanced Responsive Video Embedder"
+msgstr "ARVE Advanced Responsive Video Embedder"
+
+#: public/functions-html-output.php:111
+msgid "Embedded with ARVE Advanced Responsive Video Embedder WordPress plugin"
+msgstr "Встроено с помощью плагина WordPress ARVE Advanced Responsive Video Embedder"
+
+#: public/functions-validation.php:46
+msgid "%s <code>%s</code> not valid"
+msgstr "%s <code>%s</code> не корректен"
+
+#: public/functions-validation.php:67
+msgid "Align <code>%s</code> not valid"
+msgstr "Выравнивание <code>%s</code> не верно"
+
+#: public/functions-html-output.php:234
+msgid "<abbr title=\"Advanced Responsive Video Embedder\">ARVE</abbr> Error:"
+msgstr "<abbr title=\"Advanced Responsive Video Embedder\">ARVE</abbr> Ошибка:"
+
+#: public/functions-url-handlers.php:22
+msgid "No ID, please report this bug"
+msgstr "ID отсутствует, пожалуйста сообщите об этой ошибке разработчику"
+
+#: shared/functions-shared.php:864
+msgid "The Parameter start only takes values in seconds, this will start the video at 1 minute and 1 second"
+msgstr "Этот параметр принимает значение в секундах и начнёт воспроизведение видео на 1 минуте и 1 секунде"
+
+#: shared/functions-shared.php:858
+msgid "Testing Youtube Starttimes"
+msgstr "Тестирование времени начала воспроизведения Youtube"
+
+#: shared/functions-shared.php:856
+msgid "Enable annotations and related video at the end (disable by default with this plugin)"
+msgstr "Включить аннотации и похожее видео в конце (по умолчанию данный параметр отключен)"
+
+#: shared/functions-shared.php:854
+msgid "Loop a YouTube video"
+msgstr "Зациклить YouTube видео"
+
+#: shared/functions-shared.php:852
+msgid "Youtube playlist URL inlusive the video to start at. The index part will be ignored and is not needed"
+msgstr "Ссылка на YouTube плейлист включает в себя время начала воспроизведения. Индексная часть ссылки будет проигнорирована, необходимость её включения отсутствует"
+
+#: shared/functions-shared.php:850
+msgid "URL from youtu.be shortener"
+msgstr "Ссылка с короткого адреса youtu.be"
+
+#: shared/functions-shared.php:945 shared/functions-shared.php:974
+msgid "Playlist"
+msgstr "Плейлист"
+
+#: shared/functions-shared.php:288
+msgid "Normal"
+msgstr "Обычный"
+
+#: shared/functions-shared.php:127
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: shared/functions-shared.php:107
+msgid "center"
+msgstr "По центру"
+
+#: shared/functions-shared.php:1001
+msgid "Light"
+msgstr "Светлый"
+
+#: shared/functions-shared.php:92
+msgid "Mode"
+msgstr "Режим"
+
+#: shared/functions-shared.php:117 shared/functions-shared.php:120
+#: shared/functions-shared.php:166 shared/functions-shared.php:169
+#: shared/functions-shared.php:229
+msgid "No"
+msgstr "Нет"
+
+#: shared/functions-shared.php:117 shared/functions-shared.php:119
+#: shared/functions-shared.php:166 shared/functions-shared.php:168
+#: shared/functions-shared.php:228 shared/functions-shared.php:897
+msgid "Yes"
+msgstr "Да"
+
+#: admin/functions-admin.php:499
+msgid "<code>wmode=transparent</code> should not be changed/removed"
+msgstr "<code>wmode=transparent</code> не должен быть изменён или удалён"
+
+#: admin/functions-admin.php:495
+msgid "You may use spaces to seperate them instead of <code>&amp;</code>. They will be transformed to two spaces after save. Resources: "
+msgstr "В качестве разделителя вы можете использовать пробелы, вместо <code>&amp;</code>. Они будут автоматически трансформированы в двойной пробел после сохранения. Подробнее:"
+
+#: admin/functions-admin.php:486
+msgid "Please read <a href=\"%s\" target=\"_blank\">the documentation</a> in how this settings work. Do not remove <code>wmode=transparent</code>, this will make some modes fail to work."
+msgstr "Пожалуйста ознакомьтесь с <a href=\"%s\" target=\"_blank\">документацией</a>, чтобы узнать подробности использования этих настроек. Не удаляйте <code>wmode=transparent</code>, это может привести к сбою в работе ряда функций."
+
+#: admin/functions-admin.php:473
+msgid "Reset This Settings Section"
+msgstr "Восстановить значения для этой секции"
+
+#: admin/functions-admin.php:471
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: admin/functions-admin.php:459
+msgid "Debug Info"
+msgstr "Отладочная информация"
+
+#: admin/functions-admin.php:404
+msgid "Shortcode Tags"
+msgstr "Теги коротких кодов"
+
+#: admin/functions-admin.php:362
+msgid "URL Parameters"
+msgstr "Параметры ссылки"
+
+#: shared/functions-shared.php:192
+msgid "Align Maximal Width"
+msgstr "Максимальная ширина при выравнивании"
+
+#: shared/functions-shared.php:178
+msgid "Optional, if not set your videos will be the maximum size of the container they are in. If your content area has a big width you might want to set this. Must be 100+ to work."
+msgstr "Опционально. В случае отсутствия этого параметра, видео будет занимать всю ширину контейнера. Если ширина области отображаемого контента слишком большая, укажите этот параметр. Значение должно быть >100."
+
+#: shared/functions-shared.php:176 shared/functions-shared.php:183
+msgid "Maximal Width"
+msgstr "Максимальная ширина"
+
+#: shared/functions-shared.php:171
+msgid "Autoplay videos in normal mode, has no effect on lazyload modes."
+msgstr "Автовоспроизведение видео в обычном режиме никак не отражается на режиме lazyload."
+
+#: shared/functions-shared.php:161 shared/functions-shared.php:737
+#: shared/functions-shared.php:876
+msgid "Autoplay"
+msgstr "Автозапуск"
+
+#: admin/functions-admin.php:301
+msgid "Main Options"
+msgstr "Основные параметры"
+
+#: admin/functions-admin.php:131
+msgid "Donate"
+msgstr "Поддержать разработку"
+
+#: admin/functions-admin.php:127
+msgid "Buy Pro Addon"
+msgstr "Купить ПРО версию"
+
+#: admin/functions-admin.php:132
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/functions-admin.php:104
+msgid "A.R. Video Embedder"
+msgstr "A.R. Video Embedder"
+
+#: admin/functions-admin.php:103
+msgid "Advanced Responsive Video Embedder Settings"
+msgstr "Настройки Advanced Responsive Video Embedder"

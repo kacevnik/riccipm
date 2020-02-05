@@ -1,0 +1,215 @@
+/*!
+Theme Name: S.A.Ricci
+Theme URI: 
+Author: Nabozhev Dmitry
+Author URI: 
+Description: Авторская тема сайта для S.A.Ricci -  Управление проектами и инженерное сопровождение строительства
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: s-a-ricci
+Tags: development, custom-logo, custom-tabs, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+S.A.Ricci is based on Underscores , (C) 2012-2018 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+/* ---------------------------------------------------------------- */
+
+.post-template-default .main_content .container {
+  padding-bottom: 10px;
+}
+
+.project__article__gallery {
+  padding-top: 10px;
+}
+
+.article__info {
+	display: table;
+}
+
+.konf {
+	position: absolute;
+    left: 0;
+    top: 100px;
+    color: #7e8b98;
+    font-size: 13px;
+}
+
+.date_p {
+	display: block;
+	float: left;
+}
+.project__date {
+	clear: both;
+}
+.post-template-default header, .error404 header {
+  background: #fff;
+  height: 100px; }
+.post-template-default .custom-logo-link, .error404 .custom-logo-link {
+  margin-right: 27px;
+  float: left;
+  margin-top: 15px; }
+.post-template-default .row_buttons {
+  padding-top: 0;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  .post-template-default .row_buttons .call_to_phone, .error404 .row_buttons .call_to_phone  {
+    margin-right: 0;
+    margin-top: 8px;
+    width: 220px;
+    height: 54px;
+    line-height: 54px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold; }
+  .post-template-default .row_buttons .down_pdf, .error404 .row_buttons .down_pdf {
+    width: 185px;
+    margin-top: 8px;
+    height: 54px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin-right: 20px;
+    color: #1c374f;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 54px;
+    margin-right: 20px; }
+    .post-template-default .row_buttons .down_pdf img, .error404 .row_buttons .down_pdf img {
+      width: auto;
+      margin: 12px; }
+.post-template-default .slogan, .error404 .slogan  {
+  margin-right: 223px; }
+  .post-template-default .slogan h2, .error404 .slogan h2 {
+    min-width: 435px;
+    color: #1d374f;
+    float: left;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    padding-right: 0; }
+.post-template-default .modules_section, .error404 .modules_section  {
+  background: #edeeef;
+  background: -webkit-gradient(linear, left top, left bottom, from(#edeeef), color-stop(21%, #edeeef), color-stop(21%, #2e3740), to(#2e3740));
+  background: linear-gradient(to bottom, #edeeef 0%, #edeeef 21%, #2e3740 21%, #2e3740 100%); }
+.post-template-default .main_content, .error404 .main_content {
+  position: relative;
+  background-color: #edeeef; }
+  .post-template-default .main_content .container, .error404 .main_content .container {
+    background-color: #fff;
+    width: 1170px;
+    padding: 65px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+.post-template-default .row_map, .error404 .row_map {
+  border-top: none; }
+.post-template-default .topic, .error404 .topic {
+  width: 1170px;
+  margin: 0 auto; }
+  .post-template-default .topic h2, .error404 .topic h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 25px; }
+.post-template-default .main_content .container, .error404 .main_content .container  {
+	min-height: 360px; }
+	
+	
+
+
+
+
+.category header, .error404 header {
+  background: #fff;
+  height: 100px; }
+.category .custom-logo-link, .error404 .custom-logo-link {
+  margin-right: 27px;
+  float: left;
+  margin-top: 15px; }
+.category .row_buttons {
+  padding-top: 0;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  .category .row_buttons .call_to_phone, .error404 .row_buttons .call_to_phone  {
+    margin-right: 0;
+    margin-top: 8px;
+    width: 220px;
+    height: 54px;
+    line-height: 54px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold; }
+  .category .row_buttons .down_pdf, .error404 .row_buttons .down_pdf {
+    width: 185px;
+    margin-top: 8px;
+    height: 54px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin-right: 20px;
+    color: #1c374f;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 54px;
+    margin-right: 20px; }
+    .category .row_buttons .down_pdf img, .error404 .row_buttons .down_pdf img {
+      width: auto;
+      margin: 12px; }
+.category .slogan, .error404 .slogan  {
+  margin-right: 223px; }
+  .category .slogan h2, .error404 .slogan h2 {
+    min-width: 435px;
+    color: #1d374f;
+    float: left;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    padding-right: 0; }
+.category .modules_section, .error404 .modules_section  {
+  background: #edeeef;
+  background: -webkit-gradient(linear, left top, left bottom, from(#edeeef), color-stop(21%, #edeeef), color-stop(21%, #2e3740), to(#2e3740));
+  background: linear-gradient(to bottom, #edeeef 0%, #edeeef 21%, #2e3740 21%, #2e3740 100%); }
+.category .main_content, .error404 .main_content {
+  position: relative;
+  background-color: #edeeef; }
+  .category .main_content .container, .error404 .main_content .container {
+    background-color: #EDEEEF;
+
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+.category .row_map, .error404 .row_map {
+  border-top: none; }
+.category .topic, .error404 .topic {
+  width: 1170px;
+  margin: 0 auto; }
+  .category .topic h2, .error404 .topic h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 25px; }
+.category .main_content .container, .error404 .main_content .container  {
+  min-height: 360px; }
+.item__thumbnail {
+	height: 370px
+}
+
+.text-article .etap_1 ol li {
+	font-weight: normal;
+	color: #000;
+}
