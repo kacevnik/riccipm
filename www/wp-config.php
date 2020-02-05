@@ -26,16 +26,16 @@ define( 'DISALLOW_FILE_EDIT', true ); // Отключить редактор ф�
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('DB_NAME', 'a182889_bdcubcom');
+define('DB_NAME', 'vagrant');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'a182889_uscubcom');
+define('DB_USER', 'vagrant');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'vHI1oQ5c3x');
+define('DB_PASSWORD', 'password');
 
 /** Имя сервера MySQL */
-define('DB_HOST', 'a182889.mysql.mchost.ru');
+define('DB_HOST', 'localhost');
 
 /** Кодировка базы данных для создания таблиц. */
 define('DB_CHARSET', 'utf8mb4');
