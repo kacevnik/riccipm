@@ -30,22 +30,34 @@
 <body <?php body_class(); ?>>
 
 	<!-- HeaderHTML -->
+	<div class="header_top">
+		<div class="container">
+			<div class="logo"></div>
+			<nav class="main_navigation">
 
-<header class="main_header">
-	<div class="container">
-		<a href="/" class="logo_oblast"></a>
-		<div class="row row_buttons">
-			<!-- вывод виджета кнопок -->
-			<?php	dynamic_sidebar('header_buttons_sidebar'); ?>
-		</div>
-		<div class="row slogan">
-			<?php	dynamic_sidebar('header_slogan_sidebar'); ?>
-			<a class="logotext" href="/">S.A.Ricci PM</a>
-
-			<div class="videoblock">
-			<?php	dynamic_sidebar('header_vieo_btn_sidebar'); ?>
-			</div>
-			<div class="clear"></div>
+			<?php 
+				wp_nav_menu( array( 
+					'theme_location' => 'main-menu',
+				) 
+			);
+			?>
+			</nav>
 		</div>
 	</div>
-</header>
+	<header class="main_header">
+		<div class="container">
+			<div class="row row_buttons">
+				<!-- вывод виджета кнопок -->
+				<?php	dynamic_sidebar('header_buttons_sidebar'); ?>
+			</div>
+			<div class="row slogan">
+				<?php	dynamic_sidebar('header_slogan_sidebar'); ?>
+				<a class="logotext" href="/">S.A.Ricci PM</a>
+
+				<div class="videoblock">
+				<?php	dynamic_sidebar('header_vieo_btn_sidebar'); ?>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</header>

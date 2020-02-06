@@ -40,6 +40,7 @@ if ( ! function_exists( 's_a_ricci_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 's-a-ricci' ),
+			'main-menu' => 'Главное меню',
 		) );
 
 		function change_email($email) {
