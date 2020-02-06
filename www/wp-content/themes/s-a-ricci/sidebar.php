@@ -14,7 +14,7 @@
 
 
 					<!-- MODULE Заказать консультацию HTML -->
-					<div class="row row_map">
+					<div class="row row_map" id="contacts">
 							<div class="form_section">		
 				<?php	dynamic_sidebar('form_widget'); ?>	 
 							</div>

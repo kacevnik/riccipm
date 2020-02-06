@@ -136,6 +136,12 @@ jQuery(function() {
      $(".text_tab").hide().eq($(this).index()).fadeIn(1500)
      }).eq(0).addClass("active");
     // Tabs end
+
+    $("body").on('click', '[href*="#"]', function(e){
+        var fixed_offset = 100;
+        $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
+        e.preventDefault();
+      });
     
     
      // настройки  карусели отзывов
