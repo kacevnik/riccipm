@@ -919,34 +919,6 @@ margin-right: 30px;
   margin-right: 27px;
   float: left;
   margin-top: 15px; }
-.page-template-default .row_buttons {
-  padding-top: 0;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start; }
-  .page-template-default .row_buttons .call_to_phone, .error404 .row_buttons .call_to_phone  {
-    margin-right: 0;
-    margin-top: 8px;
-    width: 220px;
-    height: 54px;
-    line-height: 54px;
-    color: #fff;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold; }
-  .page-template-default .row_buttons .down_pdf, .error404 .row_buttons .down_pdf {
-    width: 185px;
-    margin-top: 8px;
-    height: 54px;
-    border-radius: 3px;
-    background-color: #ffffff;
-    margin-right: 20px;
-    color: #1c374f;
-    font-size: 15px;
-    font-weight: bold;
-    line-height: 54px;
-    margin-right: 20px; }
     .page-template-default .row_buttons .down_pdf img, .error404 .row_buttons .down_pdf img {
       width: auto;
       margin: 12px; }
@@ -1410,10 +1382,6 @@ margin-right: 30px;
 
 
 
-.call_to_phone {
-  margin-left: 191px;
-}
-
 .home .call_to_phone {
   margin-left: 0;
 }
@@ -1432,6 +1400,7 @@ margin-right: 30px;
   margin: 0;
   min-width: auto;
   width: 126%;
+  margin-right: 25px;
 }
 
 .header_top .row_buttons {

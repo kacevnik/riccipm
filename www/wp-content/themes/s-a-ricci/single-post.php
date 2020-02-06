@@ -12,7 +12,7 @@
  * @package S.A.Ricci
  */
 
-get_header('inner');
+get_header();
 ?>
 
 	<!-- Breadcrumbs HTML -->
