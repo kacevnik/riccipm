@@ -12,18 +12,18 @@
  * @package S.A.Ricci
  */
 
-get_header('inner');
+get_header();
 ?>
 
 	<!-- Breadcrumbs HTML -->
 	<aside class="breadcrumbs">
-	<div class="container">
-		<div class="row">
-		<?php if (function_exists('dimox_breadcrumbs')) dimox_breadcrumbs(); ?>
+		<div class="container">
+			<div class="row">
+			<?php if (function_exists('dimox_breadcrumbs')) dimox_breadcrumbs(); ?>
+			</div>
 		</div>
-	</div>
-	<div class="clear"></div>
-</aside>
+		<div class="clear"></div>
+	</aside>
 
 
 	<!-- MAIN CONTENT HTML -->

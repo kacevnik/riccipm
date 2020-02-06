@@ -1,5 +1,17 @@
 <?php get_header() ?>
+<header class="main_header">
+		<div class="container">
+			<div class="row slogan">
+				<?php dynamic_sidebar('header_slogan_sidebar'); ?>
+				<a class="logotext" href="/">S.A.Ricci PM</a>
 
+				<div class="videoblock">
+				<?php dynamic_sidebar('header_vieo_btn_sidebar'); ?>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</header>
 <aside class="text_layer">
 	<div class="container">
 		<div class="row">
