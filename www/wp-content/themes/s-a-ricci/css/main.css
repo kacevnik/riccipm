@@ -159,21 +159,21 @@ header {
       -ms-flex-align: center;
           align-items: center; }
 
-  .row_buttons .down_pdf {
-    width: 185px;
-    height: 54px;
-    border-radius: 3px;
-    background-color: #ffffff;
-    margin-right: 20px;
-    color: #1c374f;
-    font-family: "roboto-example", sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    line-height: 20px;
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
-    -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.19);
-            box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.19); }
+          .row_buttons .down_pdf {
+            width: 185px;
+            height: 54px;
+            background-color: #ffffff;
+            margin-right: 15px;
+            color: #000000;
+            border-radius: 54px;
+            border: 1px solid #c6c6c6;
+            font-family: "roboto-example", sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 19px;
+            -webkit-transition: all 0.2s;
+            transition: all 0.2s;
+        }
     .row_buttons .down_pdf:hover {
       -webkit-box-shadow: 0px 15px 25px -5px rgba(0, 0, 0, 0.19);
               box-shadow: 0px 15px 25px -5px rgba(0, 0, 0, 0.19);
@@ -220,21 +220,20 @@ header {
       margin: 12px;
       float: left; }
 
-.call_to_phone {
-  width: 220px;
-  height: 54px;
-  border-radius: 6px;
-  background-color: #0065ba;
-  font-family: "roboto-example", sans-serif;
-  color: #fff;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.19);
-          box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.19);
-  line-height: 54px;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s; }
+      .call_to_phone {
+        width: 194px;
+        height: 54px;
+        border-radius: 54px;
+        background-color: #898176;
+        font-family: "roboto-example", sans-serif;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 54px;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+    }
   .call_to_phone:hover {
     -webkit-box-shadow: 0px 15px 25px -5px rgba(0, 0, 0, 0.19);
             box-shadow: 0px 15px 25px -5px rgba(0, 0, 0, 0.19);
@@ -1421,11 +1420,22 @@ margin-right: 30px;
 
 .header_top {
   background: #FFF;
-  padding: 30px 0;
+  padding: 20px 0;
+}
+
+.header_top .container {
+  display: flex;
+  align-items: center;
 }
 
 .header_top .main_navigation {
   margin: 0;
+  min-width: auto;
+  width: 126%;
+}
+
+.header_top .row_buttons {
+  padding: 0;
 }
 
 .header_top .main_navigation ul li {
@@ -1532,4 +1542,14 @@ margin-right: 30px;
 
 .header_top .main_navigation ul li .sub-menu li:last-child a {
   border-bottom: none;
+}
+
+.header_top .logo a {
+  display: block;
+  width: 200px;
+  margin: 0 25px 0 0;
+}
+
+.header_top .logo a img {
+  width: 100%;
 }

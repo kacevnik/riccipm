@@ -32,7 +32,11 @@
 	<!-- HeaderHTML -->
 	<div class="header_top">
 		<div class="container">
-			<div class="logo"></div>
+			<div class="logo">
+				<a href="<?= get_home_url(); ?>" title="<?php bloginfo( 'name' ); ?>" rel="home">
+					<img src="<?= get_template_directory_uri(); ?>/img/logo-kubrava.png" alt="<?php bloginfo( 'name' ); ?>">
+				</a>
+			</div>
 			<nav class="main_navigation">
 
 			<?php 
@@ -42,20 +46,20 @@
 			);
 			?>
 			</nav>
+			<div class="row row_buttons">
+				<!-- вывод виджета кнопок -->
+				<?php dynamic_sidebar('header_buttons_sidebar'); ?>
+			</div>
 		</div>
 	</div>
 	<header class="main_header">
 		<div class="container">
-			<div class="row row_buttons">
-				<!-- вывод виджета кнопок -->
-				<?php	dynamic_sidebar('header_buttons_sidebar'); ?>
-			</div>
 			<div class="row slogan">
-				<?php	dynamic_sidebar('header_slogan_sidebar'); ?>
+				<?php dynamic_sidebar('header_slogan_sidebar'); ?>
 				<a class="logotext" href="/">S.A.Ricci PM</a>
 
 				<div class="videoblock">
-				<?php	dynamic_sidebar('header_vieo_btn_sidebar'); ?>
+				<?php dynamic_sidebar('header_vieo_btn_sidebar'); ?>
 				</div>
 				<div class="clear"></div>
 			</div>

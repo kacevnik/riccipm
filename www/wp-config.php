@@ -1,10 +1,5 @@
 <?php
 
-// BEGIN iThemes Security - Не меняйте и не удаляйте эту строку
-// iThemes Security Config Details: 2
-define( 'DISALLOW_FILE_EDIT', true ); // Отключить редактор файлов - Безопасность > Настройки > Подстройки WordPress > Редактор файлов
-// END iThemes Security - Не меняйте и не удаляйте эту строку
-
 /**
 * Основные параметры WordPress.
 *
