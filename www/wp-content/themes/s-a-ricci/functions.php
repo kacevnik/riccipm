@@ -678,3 +678,35 @@ add_filter('script_loader_tag', 'clean_script_tag');
 function clean_script_tag($src) {
     return str_replace("type='text/javascript'", '', $src);
 }
+
+add_action( 'init', 'registr_note_post_type' );
+function registr_note_post_type(){
+	register_post_type( 'note', array(
+		'labels'             => array(
+			'name'               => 'Запись блога', // Основное название типа записи
+			'singular_name'      => 'Запись блога', // отдельное название записи типа Book
+			'add_new'            => 'Добавить новый Note',
+			'add_new_item'       => 'Добавить новый Note',
+			'edit_item'          => 'Редактировать Note',
+			'new_item'           => 'Новый Note',
+			'view_item'          => 'Посмотреть Note',
+			'search_items'       => 'Найти Note',
+			'not_found'          =>  'Notes не найдено',
+			'not_found_in_trash' => 'В корзине Notes не найдено',
+			'parent_item_colon'  => '',
+			'menu_name'          => 'Блог'
+
+		  ),
+		'public'             => true,
+		'publicly_queryable' => true,
+		'show_ui'            => true,
+		'show_in_menu'       => true,
+		'query_var'          => true,
+		'rewrite'            => true,
+		'capability_type'    => 'post',
+		'has_archive'        => true,
+		'hierarchical'       => false,
+		'menu_position'      => null,
+		'supports'           => array('title','editor','author','thumbnail','excerpt','comments')
+	) );
+}
