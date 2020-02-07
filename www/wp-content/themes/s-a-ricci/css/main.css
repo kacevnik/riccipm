@@ -1526,3 +1526,20 @@ margin-right: 30px;
 .error404 .main_content {
   padding-bottom: 50px !important;
 }
+
+.post-type-archive-blog .row_status {
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+.post-type-archive-blog .modules_section {
+  padding-top: 40px;
+}
+
+.post-type-archive-blog .tabs_container__item {
+  margin-right: 2%;
+    height: 370px;
+    overflow: hidden;
+    position: relative;
+    width: 31%;
+    margin-bottom: 2%;
+}
