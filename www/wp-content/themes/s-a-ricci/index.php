@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row slogan">
 				<?php dynamic_sidebar('header_slogan_sidebar'); ?>
-				<a class="logotext" href="/">S.A.Ricci PM</a>
+				<a class="logotext" href="/">Организация, координация и контроль работ<br>по проектированию, строительству и внутренней отделке</a>
 
 				<div class="videoblock">
 				<?php dynamic_sidebar('header_vieo_btn_sidebar'); ?>

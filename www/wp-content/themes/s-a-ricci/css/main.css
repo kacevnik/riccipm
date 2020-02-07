@@ -134,11 +134,12 @@ header {
   margin-top: -1px;
   width: 100%;
   height: auto;
+  min-height: 708px;
   min-width: 1170px;
-  background-image: url(../img/header.jpg);
+  background-image: url(../img/kubrava_bg.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center -144px;
   -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.19);
           box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.19); }
 
@@ -246,6 +247,7 @@ header {
   height: 1px; }
 
 .videoblock {
+  display: none;
   position: relative;
   width: 515px;
   height: 90px;
@@ -283,18 +285,20 @@ header {
   display: table;
   clear: both;
   letter-spacing: 1px;
-  font-size: 74px;
+  font-size: 26px;
   margin-top: -20px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 100;
   text-align: left;
-  color: #fff; }
+  color: #fff;
+}
 
 .slogan h2 {
+  text-transform: uppercase;
   margin-top: 136px;
   padding-right: 66px;
   display: block;
-  float: right;
+  float: left;
   color: #ffffff;
   font-family: "roboto-example", sans-serif;
   font-size: 44px;
