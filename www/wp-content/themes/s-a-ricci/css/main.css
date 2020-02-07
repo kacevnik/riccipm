@@ -1522,3 +1522,7 @@ margin-right: 30px;
 .header_top .logo a img {
   width: 100%;
 }
+
+.error404 .main_content {
+  padding-bottom: 50px !important;
+}
