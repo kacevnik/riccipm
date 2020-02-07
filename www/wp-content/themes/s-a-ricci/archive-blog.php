@@ -28,6 +28,7 @@ get_header();
 <!-- MAIN CONTENT HTML -->
 <section class="main_content">
 	<div class="container">
+	<div style="padding-top: 50px;" class="topic"><h2>Блог</h2></div>
 		<div class="row row_status">
 			<?php if (have_posts()) { ?>
 				<?php while (have_posts()) { the_post(); ?> <!-- Вывод из базы-->
@@ -36,8 +37,7 @@ get_header();
 						<a href="<?php the_permalink() ?>" rel="details">
 							<img class="item__thumbnail" src="<?php the_post_thumbnail_url('object_prewiev'); ?>" alt="изображение поста">
 								<h4><?php the_title(); ?></h4>
-											<span class="item_city"><?php the_field( "project__adres" ); ?></span>
-											<span class="overley"></span>
+								<span class="overley"></span>
 						</a>
 					</div>	<!-- end card -->
 				<?php }} ?>

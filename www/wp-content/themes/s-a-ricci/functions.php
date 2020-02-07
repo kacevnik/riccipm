@@ -684,7 +684,7 @@ function registr_note_post_type(){
 	register_post_type( 'blog', array(
 		'labels'             => array(
 			'name'               => 'Блог', // Основное название типа записи
-			'singular_name'      => 'Запись блога', // отдельное название записи типа Book
+			'singular_name'      => 'Блог', // отдельное название записи типа Book
 			'add_new'            => 'Добавить новый Note',
 			'add_new_item'       => 'Добавить новый Note',
 			'edit_item'          => 'Редактировать Note',
